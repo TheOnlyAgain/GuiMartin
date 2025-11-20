@@ -8,3 +8,4 @@
 
  
  Resulved!! Setup Latex (via SimpleMathJax-but nor working, shortcode-problem)
+ Problem: Load amsmath for mathjax
