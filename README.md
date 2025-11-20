@@ -8,5 +8,12 @@
 
 
  
- Resulved!! Setup Latex (via SimpleMathJax-but nor working, shortcode-problem)  
- Problem: Load amsmath for mathjax
+ Resolved!! Setup Latex (via SimpleMathJax-but nor working, shortcode-problem)  
+ Resolved Problem: Load amsmath for mathjax window.MathJax = {
+  loader: {load: ['[tex]/ams']},  
+  tex: {  
+    inlineMath: [['$','$'], ['\\(','\\)']],  
+    processEscapes: true,  
+    packages: {'[+]': ['ams']}  
+  }  
+}; does the job in order to use ams, and cases in particular.  
