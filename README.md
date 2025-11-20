@@ -2,6 +2,7 @@
  Problem: -Cant setup several glossaries  
  -remove author from glossary entries  
  -glossary index not working  
+ -fontcolor for glossary entries not readable on dark background  
 
 
 
